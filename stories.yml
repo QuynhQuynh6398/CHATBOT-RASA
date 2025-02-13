@@ -1,0 +1,61 @@
+version: "3.1"
+
+stories:
+
+
+- story: thong tin1
+  steps:
+   - intent: cau_hoi1
+   - action: utter_cau_hoi1
+ 
+- story: thong tin2
+  steps:
+   - intent: cau_hoi2
+   - action: utter_cau_hoi2
+
+- story: thong tin3
+  steps:
+   - intent: cau_hoi3
+   - action: utter_cau_hoi3
+
+- story: thong tin4
+  steps:
+   - intent: cau_hoi4
+   - action: utter_cau_hoi4
+
+- story: thong tin5
+  steps:
+   - intent: cau_hoi5
+   - action: utter_cau_hoi5
+
+- story: thong tin6
+  steps:
+   - intent: cau_hoi6
+   - action: utter_cau_hoi6
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
