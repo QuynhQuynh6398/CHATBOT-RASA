@@ -1,0 +1,56 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - cau_hoi1
+  - cau_hoi2
+  - cau_hoi3
+  - cau_hoi4
+  - cau_hoi5
+  - cau_hoi6
+  - cau_hoi7
+
+responses:
+
+ utter_cau_hoi1:
+  - text: "Việc đăng kí học cải thiện không khác với học bình thường. Em chỉ cần chọn mục cải thiện ở phần khi đăng kí môn. Sau đó chọn môn em muốn cải thiện. Không. Trường hiếm hiếm siêu hiếm khi mở lớp học CT các môn CSN ở học kì hè."
+
+ utter_cau_hoi2:
+  - text: "Xác định mục tiêu học tập cụ thể và lên kế hoạch để đạt được nó. Tạo ra một lịch trình học tập theo thời gian, đảm bảo rằng có đủ thời gian cho các môn học và bài tập, nhưng cũng có đủ thời gian để thư giãn và giải trí. Sử dụng các công cụ quản lý thời gian để theo dõi các nhiệm vụ học tập và công việc, và ưu tiên các công việc quan trọng hơn. Khuyến khích sinh viên tận dụng các khoảng thời gian nhỏ để học tập, ví dụ như thời gian đi lại hoặc giờ nghỉ trưa. Cung cấp cho sinh viên các nguồn tài nguyên và phương pháp tốt nhất để quản lý thời gian học tập và giảm thiểu stress."
+
+ utter_cau_hoi3:
+  - text: "Tìm kiếm trên trang web của trường hoặc trường mà bạn đang quan tâm đến để xem các chương trình học bổng và những cơ hội hỗ trợ tài chính. 2. Tìm kiếm thông tin trên các trang mạng xã hội và các trang web chuyên về học bổng, như edu2Review, Tim Hortons, hay Nuffic Neso Vietnam. Liên hệ với cố vấn học tập hoặc phòng hỗ trợ sinh viên của trường để biết thêm thông tin về các chương trình học bổng và cơ hội hỗ trợ tài chính. Nhiều trường có các chương trình hỗ trợ tài chính và định hướng nghề nghiệp cho sinh viên, do đó cân nhắc tìm hiểu về những công cụ và tài nguyên này."
+
+ utter_cau_hoi4:
+  - text: "Tạo ra các hoạt động học tập nhóm để khuyến khích sinh viên tương tác và học hỏi lẫn nhau. Tổ chức các buổi tập huấn về kỹ năng giao tiếp và làm việc nhóm, bao gồm các kỹ năng như lắng nghe, biểu đạt quan điểm và đưa ra phản hồi xây dựng. Khuyến khích sinh viên tham gia vào các câu lạc bộ, hoạt động đối thoại và các dự án tình nguyện để phát triển kỹ năng giao tiếp và làm việc nhóm. Chia sẻ kinh nghiệm và giải thích các nguyên tắc cơ bản của việc làm việc nhóm để giúp sinh viên hiểu rõ hơn về cách tương tác và hỗ trợ lẫn nhau trong nhóm."
+ 
+ utter_cau_hoi5:
+  - text: " Tóm tắt cho bạn dễ hình dung thì bạn sẽ phải đăng kí những môn học của ngành hoặc chuyên ngành và những điều kiện để tốt nghiệp chuyên ngành thì sẽ được cấp bằng liên đến đến ngành đó. Như vậy, trong câu hỏi của bạn, bạn có quyền học song ngành đăng kí các môn theo hai ngành bạn mong muốn, nhưng chỉ có thể tốt nghiệp một ngành."
+
+ utter_cau_hoi6:
+  - text: " Chuyên ngành Công nghệ thông tin được gọi là tổng thể vì chương trình đào tạo của chuyên ngành này là tổ hợp các học phần từ các chuyên ngành đào tạo của Khoa, không theo hướng cụ thể nào. Chuyên ngành phù hợp cho các bạn sinh viên không thể theo đuổi 1 chuyên ngành có định hướng cụ thể em nhé. Về các học phần được đăng ký em cần xem đúng chương trình đào tạo của đúng khóa để biết. Khi đã xác định chuyên ngành ở cuối học kỳ 4, hầu như các bạn sẽ học theo định hướng chuyên ngành đã xét, không phải đăng ký lại chuyên ngành sau học kỳ 6. Nếu có nguyện vọng chuyển chuyên ngành, phải thỏa điều kiện được chuyển tích lũy ít hơn 14 tín chỉ chuyên ngành nhóm môn bắt buộc chuyên ngành và tự chọn chuyên ngành A VÀ tổng số tín chỉ tích lũy ít hơn 84 và nộp đơn trình bày lý do + bảng điểm do PĐT cấp có mộc Trường cho BP giáo vụ tại VPK. Giáo vụ sẽ trình BCN Khoa để xem xét nhé."
+
+ utter_greet:
+  - text: "Hello!"
+
+ utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+ utter_did_that_help:
+  - text: "Did that help you?"
+
+ utter_happy:
+  - text: "Great, carry on!"
+
+ utter_goodbye:
+  - text: "Toi chua hieu lam"
+
+ utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
